@@ -16,7 +16,7 @@ function Computer() {
   const dispatch = useDispatch();
   const language = useSelector((state) => state.wordList.language);
   const { countdown, start, reset, pause, isRunning } = useCountdownTimer({
-    timer: 1000 * 65,
+    timer: 1000 * 60,
   });
 
   function handleReset() {
