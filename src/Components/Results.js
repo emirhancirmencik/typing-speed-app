@@ -45,7 +45,7 @@ function Results() {
         </div>
         <div className="result-inner">
           <div className="result-text">
-            {language === "tr" ? "Yanlış Kelime:" : "Wrong Numbers:"}
+            {language === "tr" ? "Yanlış Kelime:" : "Wrong Words:"}
           </div>
           <div className="result-number">
             {"("}
