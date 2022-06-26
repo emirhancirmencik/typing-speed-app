@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "./App.css";
 import Computer from "./Components/Computer";
 import { useEffect } from "react";
@@ -10,7 +11,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchList(language));
-  }, []);
+  }, [language]);
 
   return (
     <div className="App">
